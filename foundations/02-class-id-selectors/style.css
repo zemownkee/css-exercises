@@ -1,0 +1,21 @@
+* {
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.gen {
+    background-color: pink;
+}
+.one {
+    font-size: 16px;
+}
+#two {
+    color: blue;
+    font-size: 40px;
+}
+.three {
+    font-size: 24px;
+    font: weight 100px;
+}
+#four {
+    background-color: lightgreen;
+    font-weight: bold;
+}

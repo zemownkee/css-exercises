@@ -1,10 +1,8 @@
-* {
-    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
+/* Combine cases as much as you can */
+/* Remember that you can override a value of a property if you have more specific selectors */
 .gen {
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: pink;
-}
-.one {
     font-size: 16px;
 }
 #two {
@@ -13,7 +11,6 @@
 }
 .three {
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 #four {
     background-color: lightgreen;

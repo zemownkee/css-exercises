@@ -1,0 +1,10 @@
+.avatar {
+    width: 300px;
+    height: auto;
+}
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+/* dot separator only affects those combined things, not the individuals */

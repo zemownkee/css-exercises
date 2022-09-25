@@ -55,10 +55,6 @@ ul {
   gap: 16px;
 }
 
-ul li {
- 
-}
-
 .left, 
 .right {
   display: flex;

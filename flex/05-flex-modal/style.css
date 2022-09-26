@@ -76,12 +76,16 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 .text {

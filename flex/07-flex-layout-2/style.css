@@ -11,6 +11,15 @@ ul {
   list-style-type: none;
   display: flex;
   flex-flow: column;
+  margin: 0px;
+  padding: 0px;
+  gap: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
 }
 
 ul li {
@@ -19,21 +28,29 @@ ul li {
 }
 
 .header {
-  height: 72px;
   background: darkmagenta;
   color: white;
+  flex-grow: 0;
+  font-size: 32;
+  font-weight: 900;
+  padding: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  flex-grow: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
@@ -51,7 +68,8 @@ ul li {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  flex: 1;
+  flex-shrink: 0;
+
 }
 
 .center {
@@ -63,4 +81,5 @@ ul li {
 .container {
   display: flex;
   flex-flow: row wrap;
+  padding: 32px;
 }
